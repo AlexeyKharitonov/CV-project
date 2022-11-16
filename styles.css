@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background-color: #f1f1f1;
+  color: black;
+
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: dotted;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+}
+
+a:visited {
+  color: #483d8b;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0);
+}
+
+.info {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+@media (max-width: 500px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+
+.info-text {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.info p {
+  color: #778899;
+  margin: 0;
+  /* font-style: italic;
+  font-weight: bold; */
+  /* text-transform: lowercase; */
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 10px;
+}
+
+/* .targets {
+  background: blue;
+} */
+
+.card {
+  padding: 12px 18px;
+  background: red;
+  margin-bottom: 20px;
+  border-radius: 23px;
+}
+
+.bg-DarkSlateGray {
+  background: #2f4f4f;
+}
+
+.bg-SlateBlue {
+  background: #6a5acd;
+}
+
+.bg-Teal {
+  background: #008080;
+}
+
+.bg-Honeydew {
+  background: #f0fff0;
+  margin-bottom: 45px;
+}
+
+.bg-PaleGreen {
+  background: #98fb98;
+  border-radius: 12px;
+  padding: 8px;
+}
+
+.card h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.list1 li {
+  padding: 0 30px;
+  list-style: none;
+  /* color: red; */
+  margin-bottom: 10px;
+  line-height: 1.6;
+  border-bottom: 1px solid #778899;
+}
+
+.table {
+  width: 100%;
+}
+
+.tableTwo {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.tableTwo td {
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(2) {
+  color: #dcdcdc;
+}
+
+.tableTwo td:nth-child(3) {
+  color: #dcdcdc;
+}
+
+.table tr:nth-child(even) {
+  text-decoration: underline;
+}
+
+.align {
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+  word-spacing: 40px;
+  /* text-decoration: underline; */
+  border-bottom: 10px solid #008080;
+}
+
+.bg-LightSlateGray {
+  text-align: center;
+  color: white;
+  background-color: #6a5acd;
+  border-radius: 8px;
+  margin: 10px;
+  border: 10px;
+  padding: 3px;
+}
